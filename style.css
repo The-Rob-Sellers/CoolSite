@@ -71,13 +71,19 @@ img {
 /* MAIN SECTION */
 
 .left {
-    max-width: 46%;
+    max-width: 45%;
     margin: 0 1.75rem;
     padding: 3rem;
 }
 
 .right {
-    max-width: 50%;
+    max-width: 48%;
+}
+
+.links {
+    background-color: white;
+    color: darkblue;
+    text-decoration: underline;
 }
 
 button{
@@ -106,4 +112,15 @@ button:hover{
 
 .flat-button:hover{
     filter: drop-shadow(0 -30px 0 #0000003c);
+}
+
+section{
+    padding-right: 6px;
+    margin-top: 75px;
+}
+
+.CenterCard{
+    background-color: gray;
+    text-align: center;
+    
 }
